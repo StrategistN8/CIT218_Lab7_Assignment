@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<style>
+    a, a:visited {
+        font-family: cursive; 
+        color:lemonchiffon; 
+        text-decoration: none;
+    }
+        a:hover {
+            font-family: cursive;
+            color: white;
+            text-decoration: none;
+
+        }
+</style>
+<div class="jumbotron">
+    <h1>Melody's Muse</h1>
+    <p class="lead">Be you a student, an artist, or a music aficionado, Melody's Muse has music to inspire.</p>
+    <button class="btn-danger btn-lg">@Html.ActionLink("Learn more", "About", "Home")</button>
+</div>
